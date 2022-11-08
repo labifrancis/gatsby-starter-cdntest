@@ -10,7 +10,7 @@ const UsingDSG = () => (
     <h1>
       Hello from a <b>DSG Page</b>
     </h1>
-    <p>This page is not created until requested by a user.
+    <p>This page is not created until requested by a user. There should be an image here.
   <gatsbyImage src="../images/example.png" alt="A dinosaur" width="200"/></p>
     
     <p>
