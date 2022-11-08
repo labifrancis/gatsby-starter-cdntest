@@ -11,7 +11,7 @@ const UsingDSG = () => (
       Hello from a <b>DSG Page</b>
     </h1>
     <p>This page is not created until requested by a user. There should be an image here.
-  <gatsbyImage src="../images/example.png" alt="A dinosaur" width="200"/></p>
+  <StaticImage src="../images/example.png" alt="A dinosaur" width="200"/></p>
     
     <p>
       To learn more, head over to our{" "}
