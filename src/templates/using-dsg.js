@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { gatsbyImage } from "gatsby-plugin-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -11,7 +11,7 @@ const UsingDSG = () => (
       Hello from a <b>DSG Page</b>
     </h1>
     <p>This page is not created until requested by a user. There should be an image here.
-  <gatsbyImage src="../images/example.png" alt="A dinosaur" width="200"/></p>
+  <GatsbyImage src="../images/example.png" alt="A dinosaur" width="200"/></p>
     
     <p>
       To learn more, head over to our{" "}
